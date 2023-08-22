@@ -113,10 +113,11 @@ const FirstPage = () => {
       <Box style={boxStyle}>
         <CheckboxGridComponent />
       </Box>
-
-      <Button variant="contained" color="primary" onClick={handleSubmit}>
-        Submit
-      </Button>
+      <Box sx={{ pb: 2 }}>
+        <Button variant="contained" color="primary" onClick={handleSubmit}>
+          Submit
+        </Button>
+      </Box>
     </FormControl>
   );
 };
